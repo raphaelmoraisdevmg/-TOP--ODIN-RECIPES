@@ -2,3 +2,15 @@
     background-color: black;
     color: orange;
 }
+#link-box{
+    width: fit-content;
+    height: fit-content;
+}
+.link-item{
+    display: inline-block;
+    margin:10px 10px 0px 0px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}

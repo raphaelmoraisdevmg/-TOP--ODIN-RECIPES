@@ -2,15 +2,27 @@
     background-color: black;
     color: orange;
 }
-#link-box{
+#link-box,#header-box{
     width: fit-content;
     height: fit-content;
 }
-.link-item{
+#header-box,h1{
+    text-align: center;
+}
+.link-item,.list-item{
     display: inline-block;
     margin:10px 10px 0px 0px;
     list-style: none;
 }
+
 a{
     text-decoration: none;
+}
+/*this id is only in pages that have recipe image*/
+.main-image{
+height: auto;
+width: 300px;
+}
+.list-box{
+    text-align: center;
 }
